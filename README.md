@@ -27,16 +27,16 @@ $ pod install
 
 Open your work space and add call the addCustomNavbarView method in the viewDidLoad function thats it you are done. Looks so simple 😉. Now we will see the parameters what we can modify from your ViewController which makes this more powerful.
 
-backgroundColor - This is to set the background color to the Navigation bar, this is UIColor type and default value is blue.
-title - It is string type and it will be displayed as title
-subTitle - It is string type and it will be displayed as sub title
-titleFont - It is UIFont type and you can set title font by passing your custom font. Default value is nil i.e System font
-subtitleFont - It is UIFont type and you can set subtitle font by passing your custom font, Default value is nil i.e System font
-titleTextColor - It is UiColor type and you can set title color by passing your custom color value. default color is white
-subtitleTextColor - It is UiColor type and you can set subtitle color by passing your custom color value. default color is white
-titleAlignment - It is NSTextAlignment type you can set the title text alignment center, left or right by passing your type.
-subtitleAlignment - It is NSTextAlignment type you can set the subtitle text alignment center, left or right by passing your type.
-showBackButton - You can hide passing this value false, default value is true. Normally I'll hide this for initial screens and pop ups it is up to your requirement.
-backButtonImage - You can customize back button image by passing UIImage as parameter.
+backgroundColor - This is to set the background color to the Navigation bar, this is UIColor type and default value is blue. \n
+title - It is string type and it will be displayed as title \n
+subTitle - It is string type and it will be displayed as sub title \n 
+titleFont - It is UIFont type and you can set title font by passing your custom font. Default value is nil i.e System font \n
+subtitleFont - It is UIFont type and you can set subtitle font by passing your custom font, Default value is nil i.e System font \n 
+titleTextColor - It is UiColor type and you can set title color by passing your custom color value. default color is white \n
+subtitleTextColor - It is UiColor type and you can set subtitle color by passing your custom color value. default color is white \n
+titleAlignment - It is NSTextAlignment type you can set the title text alignment center, left or right by passing your type. \n
+subtitleAlignment - It is NSTextAlignment type you can set the subtitle text alignment center, left or right by passing your type. \n
+showBackButton - You can hide passing this value false, default value is true. Normally I'll hide this for initial screens and pop ups it is up to your requirement. \n 
+backButtonImage - You can customize back button image by passing UIImage as parameter. \n 
 
 In All the Parameters title, subTitle and backButtonImage are required parameters if you want to show back button. 
